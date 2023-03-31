@@ -72,54 +72,54 @@ async def bot_start(message: types.Message):
 
 
 
-# @dp.message_handler(text="Ichimliklar")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Ichimlikni tanlang",reply_markup=ichimliklar_button)
-#
-# @dp.message_handler(text="Shirinliklar")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Shirinliklarni tanlang",reply_markup=shirinliklar_button)
-#
-# @dp.message_handler(text="Fast food")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Fast foodni tanlang",reply_markup=fast_food_button)
-#
-# @dp.message_handler(text="Orqaga")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Menuni tanlang",reply_markup=menu_button)
-#
-# @dp.callback_query_handler(text="til1")
-# async def bot_start(xabar: CallbackQuery):
-#     await xabar.message.answer(f"Menuni tanlang",reply_markup=menu_button)
-#
-# @dp.callback_query_handler(text="til2")
-# async def bot_start(xabar: CallbackQuery):
-#     await xabar.message.answer(f"Menuni tanlang",reply_markup=eng_button)
-#
-# @dp.message_handler(text="Taomlar2")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Taomlarni tanlang", reply_markup=taomlar_button2)
-#
-# @dp.message_handler(text="Ichimliklar2")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Ichimlikni tanlang",reply_markup=ichimliklar_button2)
-#
-# @dp.message_handler(text="Shirinliklar2")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Shirinliklarni tanlang",reply_markup=shirinliklar_button2)
-#
-# @dp.message_handler(text="Fast food2")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Fast foodni tanlang",reply_markup=fast_food_button2)
-#
-# @dp.message_handler(text="Orqaga2")
-# async def bot_start(message: types.Message):
-#     await message.answer(f"Menuni tanlang",reply_markup=eng_button)
-#
-# @dp.callback_query_handler(text="www")
-# async def bot_start(xabar: CallbackQuery):
-#     await xabar.message.answer(f"Qayta ishga tushirish",reply_markup=menu_button)
-#
-# @dp.message_handler(text="Ortga",)
-# async def bot_start(message: types.Message):
-#     await message.answer(text="Menu",reply_markup=menu_button)
+@dp.message_handler(text="Ichimliklar")
+async def bot_start(message: types.Message):
+    await message.answer(f"Ichimlikni tanlang",reply_markup=ichimliklar_button)
+
+@dp.message_handler(text="Shirinliklar")
+async def bot_start(message: types.Message):
+    await message.answer(f"Shirinliklarni tanlang",reply_markup=shirinliklar_button)
+
+@dp.message_handler(text="Fast food")
+async def bot_start(message: types.Message):
+    await message.answer(f"Fast foodni tanlang",reply_markup=fast_food_button)
+
+@dp.message_handler(text="Orqaga")
+async def bot_start(message: types.Message):
+    await message.answer(f"Menuni tanlang",reply_markup=menu_button)
+
+@dp.callback_query_handler(text="til1")
+async def bot_start(xabar: CallbackQuery):
+    await xabar.message.answer(f"Menuni tanlang",reply_markup=menu_button)
+
+@dp.callback_query_handler(text="til2")
+async def bot_start(xabar: CallbackQuery):
+    await xabar.message.answer(f"Menuni tanlang",reply_markup=eng_button)
+
+@dp.message_handler(text="Taomlar2")
+async def bot_start(message: types.Message):
+    await message.answer(f"Taomlarni tanlang", reply_markup=taomlar_button2)
+
+@dp.message_handler(text="Ichimliklar2")
+async def bot_start(message: types.Message):
+    await message.answer(f"Ichimlikni tanlang",reply_markup=ichimliklar_button2)
+
+@dp.message_handler(text="Shirinliklar2")
+async def bot_start(message: types.Message):
+    await message.answer(f"Shirinliklarni tanlang",reply_markup=shirinliklar_button2)
+
+@dp.message_handler(text="Fast food2")
+async def bot_start(message: types.Message):
+    await message.answer(f"Fast foodni tanlang",reply_markup=fast_food_button2)
+
+@dp.message_handler(text="Orqaga2")
+async def bot_start(message: types.Message):
+    await message.answer(f"Menuni tanlang",reply_markup=eng_button)
+
+@dp.callback_query_handler(text="www")
+async def bot_start(xabar: CallbackQuery):
+    await xabar.message.answer(f"Qayta ishga tushirish",reply_markup=menu_button)
+
+@dp.message_handler(text="Ortga",)
+async def bot_start(message: types.Message):
+    await message.answer(text="Menu",reply_markup=menu_button)
