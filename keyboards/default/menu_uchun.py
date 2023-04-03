@@ -25,6 +25,10 @@ tasdiqlash_button = ReplyKeyboardMarkup(
             KeyboardButton(text="Tasdiqlash"),
             KeyboardButton(text="Bekor qilish")
 
+        ],
+        [
+            KeyboardButton(text="Kontakt2", request_contact=True),
+            KeyboardButton(text="Lokatsiya2", request_location=True)
         ]
     ],
     resize_keyboard=True
